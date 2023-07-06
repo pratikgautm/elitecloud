@@ -1,0 +1,222 @@
+/* life at code himalaya */
+.flex-column {
+  max-width: 260px;
+}
+
+img {
+  /* margin: 5px; */
+}
+/* .slider .client-img .img-fluid{
+    height: 25px !important;
+    width: auto !important;
+} */
+.text-color {
+  color: var(--bs-theme-blue);
+}
+
+.list-costum li {
+  color: white;
+}
+.scale {
+  transform: scaleY(1.05);
+  padding-top: 5px;
+}
+/* life at code himalaya */
+
+::placeholder {
+  color: var(--bs-blue);
+}
+
+.inline-email-form {
+  background-color: white;
+  border-radius: 24px;
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.inline-email-form div {
+  margin: 0px !important;
+  display: flex;
+  justify-content: end;
+  margin: 2px 0px !important;
+  padding: 0px 2px !important;
+}
+
+.inline-email-form div input {
+  /* background-color: aqua !important; */
+  border: none !important;
+  margin: 0px;
+}
+
+.inline-email-form div button {
+  border-radius: 24px !important;
+  width: 100%;
+}
+
+.video-position-div {
+  z-index: -1;
+  height: 65vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  /* position: fixed; */
+}
+
+/* about industry we serve start */
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 10px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.our-services h4 {
+  color: var(--bs-theme-light-blue);
+}
+.our-services p{
+  color:#000000;
+}
+.our-services:hover h4,
+.our-services:hover p {
+  color: #fff;
+}
+
+.speedup:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: auto;
+  background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+}
+
+.settings:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #f89c1e 0%, #303f9f 100%);
+}
+
+.privacy:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+
+.backups:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+}
+/* about industry we served end */
+
+.video-position {
+  height: 65vh;
+  width: 100vw;
+  min-height: 100%;
+  position: absolute;
+  object-fit: cover;
+  /* opacity: 0.6; */
+}
+
+.py-5 {
+  height: calc(100vh - 150px);
+  padding: 3rem 0;
+}
+.match-to-row img {
+  width: 100%;
+  min-height: 100px;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .py-5 {
+    height: calc(100vh - 100px);
+    padding: 2rem 0;
+  }
+}
+
+.logo-image {
+  width:80px !important;
+  height: auto;
+  /* background-color: white; */
+}
+
+@media (max-width: 974px) {
+  .video-position {
+    height: 100vh;
+    width: 100%;
+    /* opacity: 1; */
+  }
+}
+
+/* mega menu */
+
+@media all and (min-width: 992px) {
+  .menuNavbar__navbar-nav .menuNavbar__item.has-megamenu {
+    position: static !important;
+  }
+  .menuNavbar__navbar-nav .menuNavbar__item.has-megamenu .megamenu {
+    left: 30%;
+    right: 0;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 0;
+    margin-top: 0;
+    background-color: white;
+    top: 50px;
+    border-radius: 5px;
+  }
+  .menuNavbar__navbar-nav .menuNavbar__item.has-megamenu .onlyIndex {
+    left: 68%;
+    right: 0;
+    width: 25%;
+    padding: 1rem;
+    border-radius: 0;
+    margin-top: 0;
+    background-color: white;
+    top: 75px !important;
+    border-radius: 5px;
+  }
+}
+
+.menuNavbar__navbar-nav .has-megamenu a {
+  text-transform: uppercase;
+}
+
+.menuNavbar__navbar-nav .has-megamenu .megamenu .title {
+  color: #4d4c4b;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  padding-bottom: 0.25rem;
+}
+
+.menuNavbar__navbar-nav .has-megamenu .megamenu .list-megamenu li a {
+  color: #878282;
+  font-size: 0.8125rem;
+  text-transform: capitalize;
+}
+
+.menuNavbar__navbar-nav .has-megamenu .megamenu .list-megamenu li a:hover,
+.menuNavbar__navbar-nav .has-megamenu .megamenu .list-megamenu li a:focus,
+.menuNavbar__navbar-nav .has-megamenu .megamenu .list-megamenu li a:active {
+  color: #f17038;
+  padding-left: 0.25rem;
+}
+
+.menuNavbar__navbar-nav .has-megamenu:hover .megamenu {
+  display: block;
+}

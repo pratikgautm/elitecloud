@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Elite CloudOps </title>
+
+    
+        
+<link rel="stylesheet" href="../static/assets/css/custom.css" />
+<link rel="stylesheet" href="../static/assets/css/all.css" />
+<link rel="stylesheet" href="../static/assets/css/slick-theme.css">
+<link rel="stylesheet" href="../static/assets/css/slick.css">
+<link rel="stylesheet" href="../static/assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="../static/assets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="../static/assets/css/main.css">
+<link rel="stylesheet" href="../static/assets/css/newStyle.css">
+<link rel="icon" href="../static/assets/images/elogo.png" type="image/icon" sizes="32x32">
+    
+
+    
+    
+</head>
+
+<body>
+    
+
+    
+    
+
+    
+<!-- mobile menu -->
+<div id="side-drawer" class="position-fixed">
+    <div class="h-100 bg-theme-blue">
+        <!-- Side Drawer Title -->
+        <div class="p-3 bg-light-theme border-bottom">
+            <div class="sidebarBlock__logo">
+                <a href="../index.html">
+                    <img src="../static/assets/images/elogo.png" class="img-fluid logo-image" alt="logo">
+                </a>
+            </div>
+        </div>
+        <!-- Side Drawer Links -->
+        <ul id="links" class="mobileMenu navbar-nav" onclick="closeSideDrawer()">
+            <li class="nav-item menuNavbar__item">
+                <a class="nav-link menuNavbar__item---link " href="../index.html">Home</a>
+            </li>
+            <li class="nav-item menuNavbar__item">
+                <a class="nav-link menuNavbar__item---link " href="../about-us/index.html">About Us</a>
+            </li>
+            <li class="nav-item mobileMenu__item dropdown">
+                <a class="nav-link mobileMenu__item---link  mr-3" href="../service/index.html" role="button">Our Work</a>
+            </li>
+            <li class="nav-item menuNavbar__item">
+                <a class="nav-link menuNavbar__item---link active" href="../blog/index.html">Blog</a>
+            </li>
+            <li class="nav-item menuNavbar__item">
+                <a class="nav-link menuNavbar__item---link" href="../career/index.html">Career</a>
+            </li>
+            <li class="nav-item menuNavbar__item">
+                <a class="nav-link menuNavbar__item---link" href="../contact-us/index.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="footer-mobile">
+            <div class="footer__top---social">
+                <p>
+                    Follow us
+                    <span class="ml-3"><a href="https://github.com/elitecloudops/ops"
+                            target="_blank"><i class="fab fa-github"></i></a></span>
+                    <span class="ml-2"><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="side-drawer-void" class="position-fixed d-none" onclick="closeSideDrawer()"></div>
+<!-- End Side Drawer -->
+<!-- Desktop Menu -->
+<section class="page-banner">
+    <div class="page-banner__overlay"></div>
+    <div class="page-banner-overlay-bg"></div>
+    <div class="page-banner-bg bpage-banner-bg"></div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg menuNavbar" id="main-navbar">
+            <a class="navbar-brand mr-auto" href="../index.html">
+                <div class="menuNavbar__logo">
+                    <img src="../static/assets/images/elogo.png" class="img-fluid" alt="logo">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" onclick="openSideDrawer()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav menuNavbar__navbar-nav ml-auto">
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link " href="../about-us/index.html">About Us</a>
+                    </li>
+                    <li class="nav-item menuNavbar__item dropdown has-megamenu">
+                        <a class="nav-link menuNavbar__item---link " href="../service/index.html">
+                            Our Work
+                        </a>
+                      
+                    </li>
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link active" href="../blog/index.html">Blog</a>
+                    </li>
+                    <!-- <li class="nav-item menuNavbar__item dropdown">
+                        <a class="nav-link menuNavbar__item---link dropdown-toggle mr-3" href="#">Careers</a>
+                        <ul class="dropdown-menu fade-up dropdown-menu-right">
+                            <li><a class="dropdown-item" href="career.html">Career</a></li>
+                            <li><a class="dropdown-item" href="career-detail.html">Career Detail</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link" href="../career/index.html">Career</a>
+                    </li>
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link" href="../contact-us/index.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item menuNavbar__item">
+                        <a class="nav-link menuNavbar__item---link" target="_blank" href="https://github.com/elitecloudops/ops"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="page-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 ">
+                        <h2>Blog Details</h2>
+                        <p> How to Make Istio SSL Offloading Work with Nginx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="hero bg-white pad-top-bot pb-5">
+    <div class="container">
+        <div class="row align-items-center">
+          
+            <div class="col-lg-12 col-md-12 mt-4">
+                <div class="hero-img">
+                    <div class="hero-img-back">
+                        <img src="../static/assets/images/aboutd.jpg" class="img-fluid" alt="" style="height:600px">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-4">
+                <div class="hero-content">
+
+                    <p class="mt-4 mb-4"><span class="text-dark">by : Pratik</span> &nbsp; <span class="text-dark">January 1, 2023</span></p>
+                    <h6 class="bold-title">
+                        How to Make Istio SSL Offloading Work with Nginx
+                    </h6>
+                    <!-- <h4 class="section-title mb-4">Createbeautiful, fast, and secure web applications tailored exclusively for your business goals.</h4> -->
+                    <p class="para-16 mb-2">In many corporate system infrastructures, it's very important for the information to be encrypted end-to-end, to be protected from potential vulnerabilities. We've learned from our experience that creating a fully.
+                        In many corporate system infrastructures, it's very important for the information to be encrypted end-to-end, to be protected from potential vulnerabilities. We've learned from our experience that creating a fully secure setup is essential. The main part of the diagram that we will focus on today will be the traffic going from the Nginx proxy to Istio's HTTPS port. Keep in mind that, even if it's not compulsory to have a full HTTPS connection between Nginx and Istio, there are applications that won't work if you don't use SSL offloading in front (Keycloak, for example).
+
+Istio SSL Offloading with Nginx
+Getting started with Istio
+In order to set everything up, we will use the setup from our previous article regarding local development environments (be sure to have at least 4GB of RAM configured).
+
+Installing Istio
+Let's download Istio using the official docs (the latest Istio version as of writing this article is 1.6.5):
+
+$ curl -L https://istio.io/downloadIstio | sh -
+$ sudo mv istio-1.6.5/bin/istioctl /usr/local/bin/
+Now let's install it on our cluster:
+
+$ istioctl install --set addonComponents.prometheus.enabled=false --set values.gateways.istio-ingressgateway.type=NodePort
+We don't need Prometheus for this experiment. Additionally, we've chosen Node Port because Load Balancers are not available on on-premise setups.
+
+Creating the experiment
+Web Server
+Let's create an Nginx pod to test our HTTPS setup:
+
+$ kubectl run nginx --image=nginx
+and create a service for it:
+
+$ kubectl expose pod nginx --port=80 --target-port=80
+Check that everything is OK:
+
+$ kubectl get po,svc
+NAME        READY   STATUS    RESTARTS   AGE
+pod/nginx   1/1     Running   0          46s
+
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.152.183.1     <none>        443/TCP   17h
+service/nginx        ClusterIP   10.152.183.116   <none>        80/TCP    19s
+Certificate and key
+Next, we need to create a certificate and key pair to use for SSL offloading:
+
+$ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -subj '/O=ssltest/CN=ssltest.com' -keyout ssltest.com.key -out ssltest.com.crt
+$ openssl req -out www.ssltest.com.csr -newkey rsa:2048 -nodes -keyout www.ssltest.com.key -subj "/CN=www.ssltest.com/O=ssltest"
+$ openssl x509 -req -days 365 -CA ssltest.com.crt -CAkey ssltest.com.key -set_serial 0 -in www.ssltest.com.csr -out www.ssltest.com.crt
+Create the secret:
+
+$ kubectl create -n istio-system secret tls ssltest-credential --key=www.ssltest.com.key --cert=www.ssltest.com.crt
+Gateway and VirtualService
+Create the Gateway:
+
+$ cat EOF | kubectl apply -f -
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: nginx-gw
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - port:
+      number: 443
+      name: https
+      protocol: HTTPS
+    tls:
+      mode: SIMPLE
+      credentialName: ssltest-credential
+    hosts:
+    - www.ssltest.com
+EOF
+Create the VirtualService:
+
+$ cat EOF | kubectl apply -f -
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: nginx-vs
+spec:
+  hosts:
+  - "www.ssltest.com"
+  gateways:
+  - nginx-gw
+  http:
+  - match:
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        port:
+          number: 80
+        host: nginx.default.svc.cluster.local
+EOF
+Install Nginx on the Virtual Machine
+Install Nginx and jq using apt:
+
+$ sudo apt update && sudo apt install nginx jq -y
+Get the Node Port which Kubernetes has assigned to the Istio HTTPS port:
+
+$ kubectl -n istio-system get svc istio-ingressgateway -ojson | jq .spec.ports[2].nodePort
+As you can see, in my case, it's 32536, but yours is most certainly different.
+
+Next, replace the /etc/nginx/sites-enabled/default file with one containing this:
+
+server {
+  listen          80;
+  server_name     www.ssltest.com;
+
+  location / {
+    proxy_pass      https://127.0.0.1:32536;
+  }
+}
+Check that everything is in place and reload the config:
+
+$ sudo nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+$ sudo nginx -s reload
+Now put an entry for http://www.ssltest.com in your /etc/hosts file to point to 192.168.50.4 (the IP address of the virtual machine).
+
+Opening http://www.ssltest.com in your browser will yield a 502 error, like this:
+
+502 Bad Gateway Error on Ngnix
+Debugging Ngnix
+Let's have a look at the Nginx logs:
+
+2020/07/14 09:50:23 [error] 160208#160208: *3 peer closed connection in SSL handshake (104: Connection reset by peer) while SSL handshaking to upstream, client: 192.168.50.1, server: www.ssltest.com, request: "GET /favicon.ico HTTP/1.1", upstream: "https://127.0.0.1:32536/favicon.ico", host: "www.ssltest.com", referrer: "http://www.ssltest.com/"
+Unfortunately, it seems that there was a problem with SSL handshaking. Let's try a curl from our terminal directly to the Istio Node Port:
+
+$ curl -HHost:www.ssltest.com https://192.168.50.4:32536
+curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to 192.168.50.4:32536
+Now we see another error regarding SSL. Next, let's test it by following the recommendations in the official documentation. As a side note, we'll also use the -k flag to skip certificate checking, as it's self-signed.
+
+$ curl -k -HHost:www.ssltest.com --resolve "www.ssltest.com:32536:192.168.50.4" "https://www.ssltest.com:32536"
+
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+
+Voila! At last, this seems to work, but why? The answer is that when using the –resolve flag, curl sends SNI information to the endpoint, which Istio uses to decide what certificate to use for offloading.
+
+All this is great, yet how do we fix our Nginx setup?
+
+The answer lies within these 3 configuration options:
+
+proxy_ssl_name $host;
+proxy_set_header Host $host;
+proxy_ssl_server_name on;
+Let's add them to our configuration file, it will look like this:
+
+server {
+  listen          80;
+  server_name     www.ssltest.com;
+
+  location / {
+    proxy_pass https://127.0.0.1:32536;
+    proxy_ssl_name $host;
+    proxy_set_header Host $host;
+    proxy_ssl_server_name on;
+  }
+}
+And now once again, reload Nginx:
+
+$ sudo nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+$ sudo nginx -s reload
+Let's reload our browser window. Although it won't hit a 502 error anymore, we face a blank page. Next, take a look at the error logs—it seems that there are no new errors, so let's have a look at the access logs:
+
+192.168.50.1 - - [14/Jul/2020:10:03:05 +0000] "GET / HTTP/1.1" 426 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15"
+It seems we got a 426 HTTP error, which means that Istio wants us to upgrade our connection, so we do that by setting the proxy_http_version to 1.1:
+
+server {
+  listen          80;
+  server_name     www.ssltest.com;
+
+  location / {
+    proxy_pass https://127.0.0.1:32536;
+    proxy_ssl_name $host;
+    proxy_set_header Host $host;
+    proxy_ssl_server_name on;
+    proxy_http_version 1.1;
+  }
+}
+Now go ahead and test / reload Nginx again and refresh your browser page.
+
+Lastly, you can see now that everything works as it should:
+
+
+If you want to learn more about these topics, check out the following resources:
+
+Istio Secure Gateways
+What is SNI?
+Nginx Proxy Module
+
+                    </p>
+                   
+                    <div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="top-footer pad-top-bot">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12">
+                    <img src="../static/assets/images/elogo.png" class="img-fluid f-img" alt="">
+                    <ul class="list-icon">
+                        <li class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="list-content"> Kathmandu, Nepal</div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="list-content">+977-9801098190</div>
+                        </li>
+                        <a href="https://wa.me/9801098190/?text=Hi Elitecloudops , Whatsup" target="_blank">
+                            <li class="d-flex">
+                                <div class="icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="list-content">Whatsapp</div>
+                            </li>
+                        </a>
+                        <li class="d-flex">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="list-content">info@elitecloudops.com</div>
+                        </li>
+
+                    </ul>
+                    <ul class="list-social">
+                        <!-- <li><a href=""><i
+                                    class="fab fa-facebook-square"></i>Facebook</a></li> -->
+                        <li><a href="https://www.linkedin.com/in/elite-cloud-ops-927205267/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <h5>Quick Links</h5>
+                    <ul class="list-footer">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about-us/index.html">About Us</a></li>
+                        <li><a href="../blog/index.html">Blog</a></li>
+                        <li><a href="../service/index.html">Our Work</a></li>
+                        <li><a href="../contact-us/index.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom-footer bg-theme-blue py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="para-16 text-white">
+                        Copyright
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> &copy; Elite CloudOps 
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+<!-- end get in touch -->
+<!--Script Block -->
+<script src="../static/assets/js/jquery-3.5.1.min.js"></script>
+<script src="../static/assets/js/popper.min.js"></script>
+<script src="../static/assets/js/bootstrap.min.js"></script>
+<script src="../static/assets/js/side_drawer.js"></script>
+<script src="../static/assets/js/slick.min.js"></script>
+<script src="../static/assets/js/owl.carousel.min.js"></script>
+<script src="../static/assets/js/sticky.js"></script>
+
+<script>
+    document.querySelector('.video-position').playbackRate = 1;
+    $('.slider-client').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }]
+    });
+    $('.testimonial-slider').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+    $(".banner-carousel").owlCarousel({
+        loop: true,
+        margin: 16,
+        autoplay: 3000,
+        dots: false,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 1,
+            },
+            1000: {
+                items: 1,
+            },
+        },
+    });
+</script>
+    
+    
+    
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+</body>
+</html>
+
+<script>
+    $("#toast").delay(2000).fadeOut('slow')
+  </script>
